@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id ="@+id/errorImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="TODO"
+        android:cropToPadding="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/zookastudylogo"/>
+
+    <TextView
+        android:id="@+id/errImage"
+        android:layout_width="match_parent"
+        android:text="ZOOKA STUDY"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsregular"
+        android:textAllCaps="true"
+        android:layout_below="@id/errorImage"
+        android:adjustViewBounds="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#1DBC3F"
+        android:textSize="30sp"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/errorrdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/errImage"
+        android:fontFamily="@font/poppinsregular"
+        android:gravity="center_horizontal"
+        android:text="Online Study Portal For competitive Exam And Latest Notification "
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="30dp"
+        android:text="Developed By:- Kuldeep Siraswar "
+        android:textColor="#078C24"
+        android:textSize="13dp"
+        android:textAlignment="center"
+        android:textStyle="normal" />
+
+</RelativeLayout>
